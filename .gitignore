@@ -1,0 +1,100 @@
+# ========================================
+# Unity - Common Ignored Folders
+# ========================================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+UserSettings/
+
+# ========================================
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.x86
+*.x86_64
+
+# ========================================
+# IDEs & Editors
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.tmp
+*.svd
+*.zip
+*.tar.gz
+
+# JetBrains Rider Plugin
+Assets/Plugins/Editor/JetBrains*
+
+# MonoDevelop
+*.pidb
+*.booproj
+*.mdb
+*.mdb.meta
+
+# ========================================
+# Unity Asset Database & Cache
+*.unitypackage.meta
+sysinfo.txt
+
+# ========================================
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# ========================================
+# Git LFS related (optional)
+*.lfs
+.git/lfs/
+
+# ========================================
+# Gradle/Android Build Cache (for Android builds)
+.gradle/
+crashlytics-build.properties
+**/build/
+
+# ========================================
+# Addressables & StreamingAssets (optional ignore)
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/*
+Assets/AddressableAssetsData/**/*.bin*
+
+# ========================================
+# XR/VR SDKs - Oculus / OpenXR (optional if included via Package Manager)
+Assets/Oculus/
+Assets/Oculus.meta
+Assets/Plugins/Oculus/
+Assets/Plugins/Oculus.meta
+
+# ========================================
+# Ignore serialized test data
+Assets/**/*.asmdef.meta
+Assets/**/*.tests.asmdef.meta
+
+# ========================================
+# Only track the essential folders
+!Assets/
+!ProjectSettings/
+!Packages/
+!Assets/**
+!ProjectSettings/**
+!Packages/**
