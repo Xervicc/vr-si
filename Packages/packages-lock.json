@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.preliy.flange": {
+      "version": "https://github.com/Preliy/Flange.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9ea6b1f57bfee860bbab29195eed5799a459e814"
+    },
     "com.unity.addressables": {
       "version": "1.22.3",
       "depth": 1,
