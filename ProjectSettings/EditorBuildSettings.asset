@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VR_2.unity
     guid: 03ed7ba83c117454cae7db4c81d1a11b
+  - enabled: 1
+    path: Assets/Scenes/Room_VR.unity
+    guid: cab338b6c28bccd42ba08616c22b9e0e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 309e3b2262c6aa944bf8f85c92041b24, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: bc028706ab97c7c40a45b3f0475fd1b1, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: e53be303381661841bcc888bca6a034c, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 40846f6c6bec2da4aaa56a8e16bfb499, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: aabe23c65a55f5249a64b6fece91e252, type: 2}
